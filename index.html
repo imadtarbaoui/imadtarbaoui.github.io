@@ -5,7 +5,7 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Imad Tarbaoui</title>
+    <title>Sublime</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -15,10 +15,11 @@
 
     <!-- CSS
     ================================================== -->
+ 
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/main.css">
-
+    
     <!-- script
     ================================================== -->
     <script src="js/modernizr.js"></script>
@@ -32,7 +33,21 @@
 
 
 <body id="top">
-    
+ <!-- this script got  -->
+     <SCRIPT language=javascript>
+msg = "Je m'appelle Imad Tarbaoui, je suis spécialisé en maintenance et support informatique et réseau, et aussi la surveillance et la création des sites web et des Spots publicitaires.";
+
+msg = "..." + msg;pos = 0;
+function scrollMSG() {
+document.title = msg.substring(pos, msg.length) + msg.substring(0, pos);
+pos++;
+if (pos >  msg.length) pos = 0
+window.setTimeout("scrollMSG()",200);
+}
+scrollMSG();
+    </SCRIPT>
+ <!-- this script got -->
+   
     <!-- preloader
     ================================================== -->
     <div id="preloader">
@@ -122,7 +137,7 @@
                 </h3>
 
                 <div class="home-content__video">
-                    <a class="video-link" href="https://player.vimeo.com/video/284780215" width="640" height="360" frameborder="0"" data-lity>
+                    <a class="video-link" href="https://www.youtube.com/watch?v=dCYlPvCnhus&t=54s" width="640" height="360" frameborder="0"" data-lity>
                         <span class="video-icon"></span>
                         <span class="video-text">LIRE LE VIDEO</span>
                     </a>
@@ -623,6 +638,7 @@
 
     <!-- contact
     ================================================== -->
+
     <section id="contact" class="s-contact target-section">
 
             <div class="grid-overlay">
@@ -648,7 +664,7 @@
                 <p class="contact-numbers">
                 +212 (679) 89 82 32  &nbsp; 
                 </p>
-
+  
                 <ul class="contact-social">
                     <li>
                         <a href="#0"><i class="fab fa-facebook"></i></a>
