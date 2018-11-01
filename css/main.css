@@ -3850,7 +3850,7 @@ footer a {
 }
 
 .ss-go-top a {
-  color: #FFFFFF;
+  color: #ffc800;
   background-color: #000000;
   text-align: center;
   font-family: "Montserrat", sans-serif;
@@ -3890,7 +3890,7 @@ footer a {
 
 .ss-go-top a:hover,
 .ss-go-top a:focus {
-  background-color: #8e7201;
+  background-color: #000;
 }
 
 /* ------------------------------------------------------------------- 
