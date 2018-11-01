@@ -3886,11 +3886,13 @@ footer a {
   top: 50%;
   left: 3.5rem;
   margin-top: -9px;
+  color: #ffc800
 }
 
 .ss-go-top a:hover,
 .ss-go-top a:focus {
   background-color: #000;
+  color: #fff
 }
 
 /* ------------------------------------------------------------------- 
